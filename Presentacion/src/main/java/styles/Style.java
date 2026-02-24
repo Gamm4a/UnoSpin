@@ -4,6 +4,14 @@ import java.awt.*;
 
 public class Style {
 
+    /* NOTAS DE ESTTILO:
+    Nombramiento de variables (porque luego se me olvida el formato)
+        -label "ejemplo" = lblNombre
+        -textfield "ejemplo" = txfdEjemplo
+        -button "ejemplo" = btnEjemplo
+        -contenedor "ejemplo" = contEjemplo
+    */
+
     //Constantes de estilo
     public static final int cornerRadius = 25;
     public static final int letraSize = 24;
