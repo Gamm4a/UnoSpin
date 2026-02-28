@@ -11,14 +11,16 @@ import java.awt.event.MouseEvent;
 public class PnlPantallaPrincipal extends JPanel {
 
     Style style = new Style();
+    FrmPrincipal frame;
 
     //Botones
     RoundButton btnCrearPartida = new RoundButton("Crear partida", Color.yellow);
     RoundButton btnUnirsePartida = new RoundButton("Unirse a partida", Color.yellow);
 
-    public PnlPantallaPrincipal() {
+    public PnlPantallaPrincipal(FrmPrincipal frame) {
 
         //Establecimiento del panel
+        this.frame = frame;
         setSize(style.dimensionFrame);
         setBackground(style.colorBase);
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
@@ -45,10 +47,13 @@ public class PnlPantallaPrincipal extends JPanel {
 
     void crearPartida() {
         System.out.println("Crear partida");
+        frame.configurarPartida();
     }
 
     void unirsePartida() {
         System.out.println("Unirse a partida");
+        frame.unirsePartida();
     }
+
 
 }

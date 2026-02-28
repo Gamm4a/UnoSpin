@@ -44,6 +44,34 @@ public class RoundButton extends JButton {
         setUI(new BasicButtonUI());
     }
 
+    public RoundButton(String texto) {
+        super(texto);
+        this.cornerRadius = style.cornerRadius;
+        setSize(style.dimensionBoton);
+        setForeground(style.colorTexto);
+        setFocusPainted(false);
+        setContentAreaFilled(false);
+        setBorderPainted(false);
+        setOpaque(false);
+
+
+        setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                hovered = true;
+                repaint();
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+                hovered = false;
+                repaint();
+            }
+        });
+        setUI(new BasicButtonUI());
+    }
+
     @Override
     protected void paintComponent(Graphics g){
         Graphics2D g2d = (Graphics2D) g.create();

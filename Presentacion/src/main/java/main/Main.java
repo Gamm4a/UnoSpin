@@ -1,6 +1,6 @@
 package main;
 
-import menuPrincipal.FramePrincipal;
+import menuPrincipal.FrmPrincipal;
 
 public class Main {
 
@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Bienvenido a Uno Spin");
 
-        FramePrincipal frame = new FramePrincipal();
+        FrmPrincipal frame = new FrmPrincipal();
 
     }
 }

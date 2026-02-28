@@ -13,6 +13,7 @@ import styles.RoundTextfield;
 public class PnlConfigurarPartida extends JPanel {
 
     Style style = new Style();
+    FrmPrincipal frame;
     
     //Variables para lógica
     
@@ -47,7 +48,9 @@ public class PnlConfigurarPartida extends JPanel {
     RoundButton btnContinuar = new RoundButton("Continuar", Color.green);
     RoundButton btnCancelar = new RoundButton("Cancelar", Color.red);
 
-    public PnlConfigurarPartida() {
+    public PnlConfigurarPartida(FrmPrincipal frame) {
+
+        this.frame = frame;
 
         //Establecimiento del panel
         setSize(style.dimensionFrame);
@@ -55,7 +58,7 @@ public class PnlConfigurarPartida extends JPanel {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
         //Contenido
-        contenido.setLayout(new GridLayout(5, 5));
+        contenido.setLayout(new GridLayout(0, 5));
             //Titulo
         //contenido.add(lblConfigurarPartida);
             //1-Rango
@@ -103,10 +106,12 @@ public class PnlConfigurarPartida extends JPanel {
 
     void continuar() {
         System.out.println("Continuando hacia la configuración del jugador");
+        frame.configurarJugador();
     }
 
     void cancelar() {
         System.out.println("Cancelando; regresando al menú principal");
+        frame.pantallaPrincipal();
     }
 
 }
