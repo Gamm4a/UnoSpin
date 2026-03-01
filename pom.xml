@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>Presentacion</module>
+        <module>Controller</module>
+        <module>Modelo</module>
     </modules>
 
     <properties>
