@@ -3,6 +3,7 @@
  */
 package Controller;
 
+import Dominio.Descarte;
 import Modelos.Descarte;
 import Modelos.Jugador;
 import Modelos.Partida;

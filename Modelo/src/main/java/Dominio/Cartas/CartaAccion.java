@@ -4,11 +4,13 @@
  */
 package Dominio.Cartas;
 
+import Dominio.Carta;
+
 /**
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class CartaAccion {
+public class CartaAccion extends Carta {
     
     TipoAccion tipoAccion;
 

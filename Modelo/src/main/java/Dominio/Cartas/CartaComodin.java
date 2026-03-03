@@ -4,11 +4,13 @@
  */
 package Dominio.Cartas;
 
+import Dominio.Carta;
+
 /**
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class CartaComodin {
+public class CartaComodin extends Carta {
     
     TIpoComodin comodin; //
 
