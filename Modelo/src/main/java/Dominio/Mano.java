@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class Mano {
+ class Mano {
 
     private List<Carta> cartasMano;
     long id;

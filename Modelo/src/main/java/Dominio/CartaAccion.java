@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Dominio.Cartas;
+package Dominio;
 
 import Dominio.Carta;
 
@@ -10,7 +10,7 @@ import Dominio.Carta;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class CartaAccion extends Carta {
+ class CartaAccion extends Carta {
     
     TipoAccion tipoAccion;
 

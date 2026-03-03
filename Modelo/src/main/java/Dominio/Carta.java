@@ -8,7 +8,7 @@ package Dominio;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class Carta {
+ class Carta {
     
     long id;
     int color; //1 rojo, 2 azul, 3 verde, 4 amarillo

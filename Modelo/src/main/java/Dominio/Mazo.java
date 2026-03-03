@@ -10,7 +10,7 @@ import java.util.Deque;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class Mazo {
+ class Mazo {
 
     private Deque<Carta> cartasMazo;
 

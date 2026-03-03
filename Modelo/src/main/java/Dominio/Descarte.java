@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class Descarte {
+ class Descarte {
     private List<Carta> cartasDescarte;
     
     public Carta sacarUltimaCarta(){

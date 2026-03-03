@@ -12,7 +12,7 @@ import java.util.Random;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class Ruleta {
+ class Ruleta {
 
     public List<AccionRuleta> accionesPosibles;
     

@@ -8,7 +8,7 @@ package Dominio;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class Jugador {
+ class Jugador {
     
     private String alias;
     private String avatar;

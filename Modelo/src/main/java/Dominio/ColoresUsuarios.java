@@ -8,7 +8,7 @@ package Dominio;
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class ColoresUsuarios {
+ class ColoresUsuarios {
     String colorParaRojo;
     String colorParaVerde;
     String colorParaAzul;

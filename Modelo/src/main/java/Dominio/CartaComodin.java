@@ -2,15 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Dominio.Cartas;
+package Dominio;
 
+import Dominio.TIpoComodin;
 import Dominio.Carta;
 
 /**
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
-public class CartaComodin extends Carta {
+ class CartaComodin extends Carta {
     
     TIpoComodin comodin; //
 
