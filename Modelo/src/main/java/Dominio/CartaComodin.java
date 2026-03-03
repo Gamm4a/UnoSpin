@@ -4,7 +4,7 @@
  */
 package Dominio;
 
-import Dominio.TIpoComodin;
+import Dominio.TipoComodin;
 import Dominio.Carta;
 
 /**
@@ -13,22 +13,22 @@ import Dominio.Carta;
  */
  class CartaComodin extends Carta {
     
-    TIpoComodin comodin; //
+    TipoComodin comodin; //
 
-    public CartaComodin(TIpoComodin comodin) {
+    public CartaComodin(TipoComodin comodin) {
         this.comodin = comodin;
     }
 
     public CartaComodin() {
     }
 
-    public void setComodin(TIpoComodin comodin) {
+    public void setComodin(TipoComodin comodin) {
         this.comodin = comodin;
     }
     
     
     
-    public TIpoComodin getComodin() {
+    public TipoComodin getComodin() {
         return comodin;
     }
     

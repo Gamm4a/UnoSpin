@@ -1,16 +1,13 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Dominio;
+package Motor;
 
 /**
  *
  * @author Jesus Gammael Soto Escalante 248336
  */
- enum TipoComodin {
-    
-    CAMBIOCOLOR, CAMBIOCOLORmas4
-    
+public class ManejadorEfectos {
     
 }
